@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do App with Stylish Icons</title>
+  <link rel="stylesheet" href="C:\Users\MUHAMMED AADHISH P P\Desktop\style.css">
+  <!-- Font Awesome for icons -->
+
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h2><center>Do-it</center></h2>
+        <div class="profile">
+            <img src="C:\Users\MUHAMMED AADHISH PP\Pictures\TTC0822034.jpg" alt="User Avatar">
+            <p>MUHAMMED AADHISH PP </p>
+            <div class="underline"></div>
+          </div>
+          
+      
+          <nav>
+            <ul>
+              <li>
+                <i class="fas fa-list"></i> Today tasks</li>
+                
+                
+              <li>
+                <span class="circle-icon personal"><i class="fas fa-user"></i></span>
+                Personal
+              </li>
+              <li>
+                <span class="circle-icon freelance"><i class="fas fa-briefcase"></i></span>
+                Freelance
+              </li>
+              <li>
+                <span class="circle-icon work"><i class="fas fa-clipboard"></i></span>
+                Work
+              </li>
+              <li>
+                <span class="circle-icon filter"><i class="fas fa-sliders-h"></i></span>
+                Add filter
+              </li>
+          <li><i class="fas fa-calendar-alt"></i> Scheduled tasks</li>
+          <li id="settings-btn"><i class="fas fa-cog"></i> Settings</li>
+        </ul>
+      </nav>
+    </aside>
+    <main class="main">
+      <!-- Tasks Section -->
+      <div id="tasks-section">
+        <header class="header">
+          <h1>Today Main Focus</h1>
+          <h1>Design team meeting</h1>
+          <div class="create-task">
+            <input type="text" id="task-title" placeholder="Enter task" />
+            <input type="date" id="task-date" />
+            <input type="time" id="task-time" />
+            <button id="add-task-btn">Add Task</button>
+          </div>
+          <div class="task-list" id="task-list">
+            <h2>Tasks</h2>
+            <ul id="task-display"></ul>
+          </div>
+        </header>
+            
+            <input type="text" placeholder="What is your next task?">
+          </header>
+          
+        <section class="tasks">
+          <div class="task">
+            <span class="task-title"><i class="fas fa-dumbbell"></i> Work out</span>
+            <span class="task-time">8:00 am</span>
+          </div>
+          <div class="task">
+            <span class="task-title"><i class="fas fa-users"></i> Design team meeting</span>
+            <span class="task-time">2:30 pm</span>
+          </div>
+          <div class="task">
+            <span class="task-title"><i class="fas fa-folder"></i> Hand off the project</span>
+            <span class="task-time">7:00 pm</span>
+          </div>
+          <div class="task">
+            <span class="task-title"><i class="fas fa-book"></i> Read 5 pages of "sprint"</span>
+            <span class="task-time">10:30 pm</span>
+          </div>
+        </section>
+      </div>
+       <!-- Scheduled Tasks Section -->
+  <div id="scheduled-tasks-section" class="hidden">
+    <h2><i class="fas fa-calendar-alt"></i> Scheduled Tasks</h2>
+    <section class="tasks">
+        <div class="task">
+          <span class="task-title"><i class="fas fa-dumbbell"></i> Work out</span>
+          <span class="task-time">8:00 am</span>
+        </div>
+        <div class="task">
+          <span class="task-title"><i class="fas fa-users"></i> Design team meeting</span>
+          <span class="task-time">2:30 pm</span>
+        </div>
+        <div class="task">
+          <span class="task-title"><i class="fas fa-folder"></i> Hand off the project</span>
+          <span class="task-time">7:00 pm</span>
+        </div>
+        <div class="task">
+          <span class="task-title"><i class="fas fa-book"></i> Read 5 pages of "sprint"</span>
+          <span class="task-time">10:30 pm</span>
